@@ -16,11 +16,27 @@ a:visited {
 }
 
 header{
+
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+
+    color: #FFFFFF;
     height: 100px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+.info{
+
+    align-content: center;
+    padding: 100px;
+
 }
 
 .cartelera{
@@ -209,7 +225,7 @@ footer {
 
 .tituloPopup{
 
-     padding: 25px;
+    padding: 25px;
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
@@ -225,7 +241,9 @@ footer {
     font-size: 15px;
     color: white;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
     padding: 30px;
 
 }
