@@ -227,11 +227,10 @@ footer {
     position: relative;
     margin: 20% auto;
     transition: all 1s ease-in-out;
+    text-align: center;
 }
 
-
 .tituloPopup{
-
     padding: 25px;
     font-family: Raleway;
     font-style: normal;
@@ -239,12 +238,11 @@ footer {
     font-size: 36px;
     line-height: 42px;
     text-align: center;
-
     color: #FFFFFF;
 
 }
-.popupContent{
 
+.popupContent{
     font-size: 15px;
     color: white;
     text-align: center;
@@ -254,6 +252,28 @@ footer {
     padding: 30px;
 
 }
+
+.boton{
+    font-size: 15px;
+    color: #000000;
+    text-align: center;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+.popupBoton{
+    align-content: center;
+    justify-content: center;
+    padding: 15px;
+    width:150px;
+    background: #FFA31A;
+
+}
+
 
 #cerrar{
     position: absolute;
