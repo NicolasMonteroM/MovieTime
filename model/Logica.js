@@ -25,12 +25,5 @@ class Logica {
         var P13 = new Pelicula(this, titulo, duracion, sinopsis, genero);
         var P14 = new Pelicula(this, titulo, duracion, sinopsis, genero);
 
-        for (var i = 0; i < 14; i++) {
-
-                $("#" + P[i+1] + "_title").text(P[i+1].titulo);
-                $("#" + P[i+1] + "_length").text(P[i+1].duracion);
-                $("#" + P[i+1] + "_sinopsis").text(P[i+1].sinopsis);
-                $("#" + P[i+1] + "_genre").text(P[i+1].genero);
-        }
     }
 }

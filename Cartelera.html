@@ -41,14 +41,13 @@
                 <div class="carrusel">
                     <div class="product" id="product_0">
                         <div style="position: relative;">
-                            <img src="data/gallery/pelicula1.png" width="1440px" height="525px" />
-                            <div class="info_movie_title" style="position: absolute; left: 10px; top: 180px; ">
-                                <h5>DOCTOR SLEEP</h5>
+                            <img src="gallery/pelicula1.png" width="1440px" height="525px" />
+                            <div class="info_movie_title" style="position: absolute; left: 10px; top: 180px; "
+                                id="doctor">
+                                <h5 id="P1_title"></h5>
                             </div>
                             <div class="info_movie" style="position: absolute; left: 700px; top: 380px; ">
-                                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veritatis omnis ad
-                                    commodi, fuga sequi corporis deserunt eligendi a, atque aperiam deleniti! Iure
-                                    ratione ipsum officia harum suscipit itaque distinctio.</h2>
+                                <h2 id="P1_sinopsis"></h2>
                             </div>
                         </div>
                     </div>
@@ -244,6 +243,13 @@
                     <p>Este es el contenido</p>
                 </div>
             </div>
+
+            <div>
+
+
+                
+            </div>
+
         </div>
 
     </main>
@@ -272,9 +278,15 @@
 
             var logica = new Logica();
             this.logica.cargarInfoPeliculas();
-            $("#doctor_title").text(pelicula.titulo);
-            $("#doctor_sinopsis").text(pelicula.sinopsis);
 
+
+            for (var i = 0; i < 14; i++) {
+
+                $("#" + P[i + 1] + "_title").text(P[i + 1].titulo);
+                $("#" + P[i + 1] + "_length").text(P[i + 1].duracion);
+                $("#" + P[i + 1] + "_sinopsis").text(P[i + 1].sinopsis);
+                $("#" + P[i + 1] + "_genre").text(P[i + 1].genero);
+            }
 
             //carrusel cartelera
             var numImages = 6;

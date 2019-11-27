@@ -6,12 +6,13 @@ body {
 a {
     color: white;
 }
+a:hover{
 
-a:link {
-    text-decoration: none;
+        color: #FFA31A;
+
 }
 
-a:visited {
+a:link {
     text-decoration: none;
 }
 
@@ -73,6 +74,10 @@ footer {
     padding: 15px;
     color: #FFFFFF;
     
+}
+
+.ciudades:hover{
+    color: #FFA31A;
 }
 
 .tabla{
