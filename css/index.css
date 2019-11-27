@@ -1,0 +1,80 @@
+body {
+    background-color: black;
+    margin: auto;
+}
+
+a {
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+header{
+    height: 170px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px;;
+
+}
+
+.titulo_bienvenida{
+    width: 500px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.div_bienvenida {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 350px;
+    top: 250px
+}
+
+footer {
+    height: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    bottom: 0px;
+}
+
+
+
+#ciudades {
+    padding: 70px;
+    display: flex;
+    position: relative;
+}
+
+
+.ciudades{
+    width:200px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    padding: 15px;
+    color: #FFFFFF;
+    
+}
+
+.tabla{
+    border-spacing: 100 5px;
+}

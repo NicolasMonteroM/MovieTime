@@ -1,0 +1,10 @@
+class teatro{
+
+    contructor(app){
+
+
+        
+    }
+
+
+}

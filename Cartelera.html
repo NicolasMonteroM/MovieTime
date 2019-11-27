@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Movie Time</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600&display=swap" rel="stylesheet"> rel="stylesheet">
+    <link href="css/cartelera.css" rel="stylesheet">
+
+    <script src="js/movietime.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="div_info">
+            <table class="tabla_info">
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <td>
+                                    <label class="info">CIUDAD:</label>
+                                </td>
+                                <td>
+                                    <select>
+                                        <option value="Cali">Cali</option>
+                                        <option value="Medellin">Medellin</option>
+                                        <option value="Bogotá">Bogotá</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <label class="info">NOVEDADES</label>
+                    </td>
+                    <td>
+                        <img src="data/images/MovieTimeW.png" width="50px" height="45px">
+                    </td>
+                    <td>
+                        <label class="info">PRÓXIMOS ESTRENOS</label>
+                    </td>
+                    <td>
+                        <label class="info">CARTELERA</label>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </header>
+
+    <main>
+        <div id="estrenos">
+
+
+            <div id="carrusel">
+                <a href="#" class="left-arrow"><img src="data/images/left-arrow.png" /></a>
+                <a href="#" class="right-arrow"><img src="data/images/right-arrow.png" /></a>
+                <div class="carrusel">
+                    <div class="product" id="product_0">
+                        <div style="position: relative;">
+                            <img src="data/gallery/pelicula1.png" width="1440px" height="525px" />
+                            <div class="info_movie_title" style="position: absolute; left: 10px; top: 180px; ">
+                                <h5>DOCTOR SLEEP</h5>
+                            </div>
+                            <div class="info_movie" style="position: absolute; left: 700px; top: 380px; ">
+                                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veritatis omnis ad
+                                    commodi, fuga sequi corporis deserunt eligendi a, atque aperiam deleniti! Iure
+                                    ratione ipsum officia harum suscipit itaque distinctio.</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product" id="product_1">
+                        <div style="position: relative;">
+                            <img src="data/gallery/pelicula2.png" width="1440px" height="525px" />
+                            <div class="info_movie_title" style="position: absolute; left: 10px; top: 180px; ">
+                                <h5>JOKER</h5>
+                            </div>
+                            <div class="info_movie" style="position: absolute; left: 700px; top: 380px; ">
+                                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veritatis omnis ad
+                                    commodi, fuga sequi corporis deserunt eligendi a, atque aperiam deleniti! Iure
+                                    ratione ipsum officia harum suscipit itaque distinctio.</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product" id="product_2">
+                        <div style="position: relative;">
+                            <img src="data/gallery/pelicula3.png" width="1440px" height="525px" />
+                            <div class="info_movie_title" style="position: absolute; left: 10px; top: 180px; ">
+                                <h5>MALEFICIENT</h5>
+                            </div>
+                            <div class="info_movie" style="position: absolute; left: 700px; top: 380px; ">
+                                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veritatis omnis ad
+                                    commodi, fuga sequi corporis deserunt eligendi a, atque aperiam deleniti! Iure
+                                    ratione ipsum officia harum suscipit itaque distinctio.</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product" id="product_3">
+                        <div style="position: relative;">
+                            <img src="data/gallery/pelicula4.png" width="1440px" height="525px" />
+                            <div class="info_movie_title" style="position: absolute; left: 10px; top: 180px; ">
+                                <h5>TERMINATOR DARK FATE</h5>
+                            </div>
+                            <div class="info_movie" style="position: absolute; left: 700px; top: 380px; ">
+                                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veritatis omnis ad
+                                    commodi, fuga sequi corporis deserunt eligendi a, atque aperiam deleniti! Iure
+                                    ratione ipsum officia harum suscipit itaque distinctio.</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+
+        <div>
+            <label class="cartelera"> CARTELERA |<label id="fecha" class="fecha"></label></label>
+
+                <div class="peliculas">
+                    <div style="width: 250px;" class="prodcut">
+                        <div class="item">
+                            <div class="imagens">
+                                <a href="#popup" target="_top"><img src="data/gallery/estreno1.png" height="320px"
+                                        width="200px"></a></div>
+                            <span>Frozen II</span>
+                        </div>
+                    </div>
+
+                    <div style="width: 250px;" class="prodcut">
+                        <div class="item">
+                            <div class="imagens">
+                                <a href="#popup" target="_top"><img src="data/gallery/estreno2.png" height="320px"
+                                        width="200px"></a></div>
+                            <span>Mullan</span>
+                        </div>
+                    </div>
+
+                    <div style="width: 250px;" class="prodcut">
+                        <div class="item">
+                            <div class="imagens">
+                                <a href="#popup" target="_top"><img src="data/gallery/estreno3.png" height="320px"
+                                        width="200px"></a></div>
+                            <span>Peter Rabbit</span>
+                        </div>
+                    </div>
+
+                    <div style="width: 250px;" class="prodcut">
+                        <div class="item">
+                            <div class="imagens">
+                                <a href="#popup" target="_top"><img src="data/gallery/estreno4.png" height="320px"
+                                        width="200px"></a></div>
+                            <span>Rings</span>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+
+        <div class="flex-container" ></div>
+
+        <div>
+            <h3 class="cartelera">PROXIMOS ESTRENOS </h3>
+
+            <div id="peliculas">
+                <div class="peliculas">
+                    <div style="width: 250px;" class="prodcut">
+                        <div class="item">
+                            <div class="imagens">
+                                <a href="#" target="_top"><img src="data/gallery/proximo1.png" height="320px"
+                                        width="200px"></a></div>
+                            <span>Frozen II</span>
+                        </div>
+                    </div>
+
+                    <div style="width: 250px;" class="prodcut">
+                        <div class="item">
+                            <div class="imagens">
+                                <a href="#" target="_top"><img src="data/gallery/proximo2.png" height="320px"
+                                        width="200px"></a></div>
+                            <span>Mullan</span>
+                        </div>
+                    </div>
+
+                    <div style="width: 250px;" class="prodcut">
+                        <div class="item">
+                            <div class="imagens">
+                                <a href="#" target="_top"><img src="data/gallery/proximo3.png" height="320px"
+                                        width="200px"></a></div>
+                            <span>Peter Rabbit</span>
+                        </div>
+                    </div>
+
+                    <div style="width: 250px;" class="prodcut">
+                        <div class="item">
+                            <div class="imagens">
+                                <a href="#" target="_top"><img src="data/gallery/proximo4.png" height="320px"
+                                        width="200px"></a></div>
+                            <span>Rings</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Popup-->
+        <div id="popup" class="overlay">
+            <div id="popupBody">
+                <h2 class="tituloPopup">Título de la ventana</h2>
+                <a id="cerrar" href="#">&times;</a>
+                <div class="popupContent">
+                    <p>Este es el contenido</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <figure>
+            <img src="data/images/MovieTimeW.png" width=50 height=40 alt="MovieTime.png">
+        </figure>
+    </footer>
+
+
+
+    <script>
+        var current = 0;
+        var imagenes = new Array();
+
+        $(document).ready(function () {
+
+            //para poner fecha la fecha actual
+            var meses = new Array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
+            var f = new Date();
+            var fechaTotal = f.getDate() + " de " + meses[f.getMonth()] + ", " + f.getFullYear();
+            $('#fecha').text(fechaTotal);
+            //alert(fechaTotal);
+
+          
+            var logica = new Logica();
+            this.logica.cargarInfoPeliculas();
+            $("#doctor_title").text(pelicula.titulo);
+            $("#doctor_sinopsis").text(pelicula.sinopsis);
+
+
+            //carrusel cartelera
+            var numImages = 6;
+            if (numImages <= 3) {
+                $('.right-arrow').css('display', 'none');
+                $('.left-arrow').css('display', 'none');
+            }
+
+            $('.left-arrow').on('click', function () {
+                if (current > 0) {
+                    current = current - 1;
+                } else {
+                    current = numImages - 3;
+                }
+
+                $(".carrusel").animate({ "left": -($('#product_' + current).position().left) }, 800);
+
+                return false;
+            });
+
+            $('.left-arrow').on('hover', function () {
+                $(this).css('opacity', '0.5');
+            }, function () {
+                $(this).css('opacity', '1');
+            });
+
+            $('.right-arrow').on('hover', function () {
+                $(this).css('opacity', '0.5');
+            }, function () {
+                $(this).css('opacity', '1');
+            });
+
+            $('.right-arrow').on('click', function () {
+                if (numImages > current + 3) {
+                    current = current + 1;
+                } else {
+                    current = 0;
+                }
+
+                $(".carrusel").animate({ "left": -($('#product_' + current).position().left) }, 800);
+
+                return false;
+            });
+        });
+    </script>
+</body>
+
+</html>

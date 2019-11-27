@@ -1,0 +1,245 @@
+body {
+    background-color: black;
+    margin: auto;
+}
+
+a {
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cartelera{
+    
+    margin-left: 40px;
+    font-size: 25px;
+    color:#FFA31A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 35px;
+    
+}
+
+.fecha{
+    margin-left: 6px;
+    font-size: 25px;
+    color:#FFA31A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 35px;
+
+}
+
+.content{
+    position: relative;
+    margin: auto;
+    width: 800px;
+    height: 600px;
+}
+
+
+footer {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0%;
+    margin-left: 0%;
+}
+
+
+.div_ciudades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.info_movie_title{
+    padding: 2%;
+    font-size: 80px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.info_movie{
+    padding: 2%;
+    font-size: 14px;
+    color: white;
+    text-align: right;
+    font-family: 'Raleway', sans-serif;
+    padding: 30px;
+}
+
+/*****CARROUSEL*****/
+
+#carrusel {
+
+    width:100%;
+    overflow:hidden;
+    height:550px;
+    position:relative;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+#carrusel_est {
+    float:left;
+    width:1000px;
+    overflow:hidden;
+    height:400px;
+    position:relative;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+ 
+#carrusel .left-arrow {
+    position:absolute;
+    left:10px;
+    z-index:1;
+    top:50%;
+    margin-top:-9px;
+}
+
+#carrusel .left-arrow2 {
+    position:absolute;
+    left:10px;
+    z-index:1;
+    top:50%;
+    margin-top:-9px;
+}
+ 
+#carrusel .right-arrow {
+    position:absolute;
+    right:10px;
+    z-index:1;
+    top:50%;
+    margin-top:-9px;
+}
+
+#carrusel .right-arrow2 {
+    position:absolute;
+    right:10px;
+    z-index:1;
+    top:50%;
+    margin-top:-9px;
+}
+
+
+.peliculas{
+    margin-top: 2%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.carrusel {
+    width:8000px;
+    left:0px;
+    position:absolute;
+    z-index:0;
+}
+
+.carrusel_est {
+    width:6000px;
+    left:0px;
+    position:absolute;
+    z-index:0;
+}
+ 
+.carrusel>div {
+    float: left;
+    height: 550px;
+   
+    width: 1440px;
+    text-align:center;
+}
+ 
+.carrusel img {
+    cursor:pointer;
+}
+
+/**POPUP**/
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+#popupBody{
+    width: 46%;
+    padding: 2%;
+    background: #494949;
+    position: relative;
+    margin: 20% auto;
+    transition: all 1s ease-in-out;
+}
+
+
+.tituloPopup{
+
+     padding: 25px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+.popupContent{
+
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 30px;
+
+}
+
+#cerrar{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFA31A;
+    transition: all 200ms;
+}
+
+
+
