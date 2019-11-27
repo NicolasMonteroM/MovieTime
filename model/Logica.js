@@ -20,15 +20,17 @@ class Logica {
         var P8 = new Pelicula(this, titulo, duracion, sinopsis, genero);
         var P9 = new Pelicula(this, titulo, duracion, sinopsis, genero);
         var P10 = new Pelicula(this, titulo, duracion, sinopsis, genero);
+        var P11 = new Pelicula(this, titulo, duracion, sinopsis, genero);
+        var P12 = new Pelicula(this, titulo, duracion, sinopsis, genero);
+        var P13 = new Pelicula(this, titulo, duracion, sinopsis, genero);
+        var P14 = new Pelicula(this, titulo, duracion, sinopsis, genero);
 
-        for (var i = 1; i < 11; i++) {
-            for (i = 1; i < 11; i++) {
+        for (var i = 0; i < 14; i++) {
 
-                $("#" + P[i] + "_title").text(P[i].titulo);
-                $("#" + P[i] + "_length").text(P[i].duracion);
-                $("#" + P[i] + "_sinopsis").text(P[i].sinopsis);
-                $("#" + P[i] + "_genre").text(P[i].genero);
-            }
+                $("#" + P[i+1] + "_title").text(P[i+1].titulo);
+                $("#" + P[i+1] + "_length").text(P[i+1].duracion);
+                $("#" + P[i+1] + "_sinopsis").text(P[i+1].sinopsis);
+                $("#" + P[i+1] + "_genre").text(P[i+1].genero);
         }
     }
 }

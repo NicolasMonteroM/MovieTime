@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <title>Movie Time</title>
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600&display=swap" rel="stylesheet"> rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600&display=swap" rel="stylesheet">
+    rel="stylesheet">
     <link href="css/cartelera.css" rel="stylesheet">
 
     <script src="js/Logica.js"></script>
@@ -15,41 +16,19 @@
 <body>
 
     <header>
-        <div class="div_info">
-            <table class="tabla_info">
-                <tr>
-                    <td>
-                        <table>
-                            <tr>
-                                <td>
-                                    <label class="info">CIUDAD:</label>
-                                </td>
-                                <td>
-                                    <select>
-                                        <option value="Cali">Cali</option>
-                                        <option value="Medellin">Medellin</option>
-                                        <option value="Bogotá">Bogotá</option>
-                                    </select>
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                    <td>
-                        <label class="info">NOVEDADES</label>
-                    </td>
-                    <td>
-                        <img src="data/images/MovieTimeW.png" width="50px" height="45px">
-                    </td>
-                    <td>
-                        <label class="info">PRÓXIMOS ESTRENOS</label>
-                    </td>
-                    <td>
-                        <label class="info">CARTELERA</label>
-                    </td>
-                </tr>
-            </table>
-        </div>
 
+        <figure>
+            <img src="data/images/MovieTimeW.png" width="80px" height="65px">
+        </figure>
+
+        <div class=selector>
+            <p class="info">CIUDAD:</p>
+            <select>
+                <option value="Cali">Cali</option>
+                <option value="Medellin">Medellin</option>
+                <option value="Bogotá">Bogotá</option>
+            </select>
+        </div>
     </header>
 
     <main>
@@ -120,47 +99,72 @@
         <div>
             <label class="cartelera"> CARTELERA |<label id="fecha" class="fecha"></label></label>
 
-                <div class="peliculas">
-                    <div style="width: 250px;" class="prodcut">
-                        <div class="item">
-                            <div class="imagens">
-                                <a href="#popup" target="_top"><img src="data/gallery/estreno1.png" height="320px"
-                                        width="200px"></a></div>
-                            <span>Frozen II</span>
-                        </div>
-                    </div>
-
-                    <div style="width: 250px;" class="prodcut">
-                        <div class="item">
-                            <div class="imagens">
-                                <a href="#popup" target="_top"><img src="data/gallery/estreno2.png" height="320px"
-                                        width="200px"></a></div>
-                            <span>Mullan</span>
-                        </div>
-                    </div>
-
-                    <div style="width: 250px;" class="prodcut">
-                        <div class="item">
-                            <div class="imagens">
-                                <a href="#popup" target="_top"><img src="data/gallery/estreno3.png" height="320px"
-                                        width="200px"></a></div>
-                            <span>Peter Rabbit</span>
-                        </div>
-                    </div>
-
-                    <div style="width: 250px;" class="prodcut">
-                        <div class="item">
-                            <div class="imagens">
-                                <a href="#popup" target="_top"><img src="data/gallery/estreno4.png" height="320px"
-                                        width="200px"></a></div>
-                            <span>Rings</span>
-                        </div>
+            <div class="peliculas">
+                <div style="width: 250px;" class="prodcut">
+                    <div class="item">
+                        <div class="imagens">
+                            <a href="#popup" target="_top"><img src="data/gallery/estreno1.png" height="320px"
+                                    width="200px"></a></div>
+                        <span>Frozen II</span>
                     </div>
                 </div>
+
+
+                <div style="width: 250px;" class="prodcut">
+                    <div class="item">
+                        <div class="imagens">
+                            <a href="#popup" target="_top"><img src="data/gallery/estreno2.png" height="320px"
+                                    width="200px"></a></div>
+                        <span>Mullan</span>
+                    </div>
+                </div>
+
+                <div style="width: 250px;" class="prodcut">
+                    <div class="item">
+                        <div class="imagens">
+                            <a href="#popup" target="_top"><img src="data/gallery/estreno3.png" height="320px"
+                                    width="200px"></a></div>
+                        <span>Peter Rabbit</span>
+                    </div>
+                </div>
+
+                <div style="width: 250px;" class="prodcut">
+                    <div class="item">
+                        <div class="imagens">
+                            <a href="#popup" target="_top"><img src="data/gallery/estreno4.png" height="320px"
+                                    width="200px"></a></div>
+                        <span>Rings</span>
+                    </div>
+                </div>
+                <div style="width: 250px;" class="prodcut">
+                    <div class="item">
+                        <div class="imagens">
+                            <a href="#popup" target="_top"><img src="data/gallery/estreno2.png" height="320px"
+                                    width="200px"></a></div>
+                        <span>Mullan</span>
+                    </div>
+                </div>
+                <div style="width: 250px;" class="prodcut">
+                    <div class="item">
+                        <div class="imagens">
+                            <a href="#popup" target="_top"><img src="data/gallery/estreno2.png" height="320px"
+                                    width="200px"></a></div>
+                        <span>Mullan</span>
+                    </div>
+                </div>
+                <div style="width: 250px;" class="prodcut">
+                    <div class="item">
+                        <div class="imagens">
+                            <a href="#popup" target="_top"><img src="data/gallery/estreno2.png" height="320px"
+                                    width="200px"></a></div>
+                        <span>Mullan</span>
+                    </div>
+                </div>
+            </div>
         </div>
 
 
-        <div class="flex-container" ></div>
+        <div class="flex-container"></div>
 
         <div>
             <h3 class="cartelera">PROXIMOS ESTRENOS </h3>
@@ -202,6 +206,31 @@
                             <span>Rings</span>
                         </div>
                     </div>
+
+                    <div style="width: 250px;" class="prodcut">
+                        <div class="item">
+                            <div class="imagens">
+                                <a href="#popup" target="_top"><img src="data/gallery/estreno2.png" height="320px"
+                                        width="200px"></a></div>
+                            <span>Mullan</span>
+                        </div>
+                    </div>
+                    <div style="width: 250px;" class="prodcut">
+                        <div class="item">
+                            <div class="imagens">
+                                <a href="#popup" target="_top"><img src="data/gallery/estreno2.png" height="320px"
+                                        width="200px"></a></div>
+                            <span>Mullan</span>
+                        </div>
+                    </div>
+                    <div style="width: 250px;" class="prodcut">
+                        <div class="item">
+                            <div class="imagens">
+                                <a href="#popup" target="_top"><img src="data/gallery/estreno2.png" height="320px"
+                                        width="200px"></a></div>
+                            <span>Mullan</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -221,7 +250,7 @@
 
     <footer>
         <figure>
-            <img src="data/images/MovieTimeW.png" width=50 height=40 alt="MovieTime.png">
+            <img src="data/images/MovieTimeW.png" width=80 height=65 alt="MovieTime.png">
         </figure>
     </footer>
 
@@ -240,7 +269,7 @@
             $('#fecha').text(fechaTotal);
             //alert(fechaTotal);
 
-          
+
             var logica = new Logica();
             this.logica.cargarInfoPeliculas();
             $("#doctor_title").text(pelicula.titulo);
