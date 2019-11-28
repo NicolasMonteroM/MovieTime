@@ -33,6 +33,17 @@ header{
 
 }
 
+.peliculas{
+    margin-top: 30px;
+    margin-left: 6%;
+    margin-right: 6%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
 .selector{
     padding: 0;
     display: flex;
@@ -109,6 +120,34 @@ footer {
     font-family: 'Raleway', sans-serif;
     padding: 30px;
 }
+  
+  sdiv.awSlider .carousel{
+    width:100%;
+    display:flex;
+    z-index:2;
+    -moz-box-shadow: 0 0 4px #444;
+    -webkit-box-shadow: 0 0 4px #444;
+    box-shadow: 0 0 15px rgba(1,1,1,.5);
+  }
+  
+  div.awSlider{
+    width:100%;
+    margin:auto;
+    padding:30px;
+    position:relative;
+    display:table;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  div.awSlider img{
+    width:100%;
+    pointer-events: none;
+  }
 
 /*****CARROUSEL*****/
 
@@ -164,18 +203,6 @@ footer {
     margin-top:-9px;
 }
 
-
-.peliculas{
-    margin-top: 30px;
-    margin-left: 6%;
-    margin-right: 6%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-
-}
-
 .carrusel {
     width:8000px;
     left:0px;
@@ -218,6 +245,11 @@ footer {
 .overlay:target {
     visibility: visible;
     opacity: 1;
+}
+#popup{
+
+    align-content: center;
+    justify-content: center;
 }
 
 #popupBody{
@@ -265,7 +297,7 @@ footer {
 
 }
 
-.popupBoton{
+#popupBoton{
     align-content: center;
     justify-content: center;
     padding: 15px;
