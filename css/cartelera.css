@@ -3,9 +3,6 @@ body {
     margin: auto;
 }
 
-a {
-    color: white;
-}
 
 a:link {
     text-decoration: none;
@@ -19,7 +16,6 @@ header{
 
     align-items: center;
     justify-content: space-between;
-
     margin-left: 6%;
     margin-right: 6%;
     font-size: 15px;
@@ -48,7 +44,6 @@ header{
     padding: 0;
     display: flex;
     align-items: center;
-
 }
 
 .info{
@@ -57,7 +52,7 @@ header{
 
 }
 
-.cartelera{
+.titulos{
     margin-left: 40px;
     font-size: 25px;
     color:#FFA31A;
@@ -97,7 +92,22 @@ footer {
     margin-left: 0%;
 }
 
+.info-peli{
+    color:white;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+}
 
+.info-peli p{
+    font-weight: normal;
+    margin-top: 0px;
+    font-size: 14px;
+  
+}
 .div_ciudades {
     display: flex;
     justify-content: center;
@@ -122,33 +132,13 @@ footer {
 }
 
 
-  div.awSlider.carousel{
-      
-    margin-left:0px;
-    z-index:2;
-    -moz-box-shadow: 0 0 4px #444;
-    -webkit-box-shadow: 0 0 4px #444;
-    box-shadow: 0 0 15px rgba(1,1,1,.5);
-  }
-  
-  div.awSlider{
 
-    width:100%;
-    position:relative;
-    display:flex;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-  
-  div.awSlider img{
-    pointer-events: none;
-  }
 
 /*****CARROUSEL*****/
+
+
+
+
 
 #carrusel {
 
@@ -203,23 +193,22 @@ footer {
 }
 
 .carrusel {
-    width:8000px;
+    width:100%;
     left:0px;
-    position:absolute;
     z-index:0;
 }
 
 .carrusel_est {
-    width:6000px;
+    width:100%;
     left:0px;
     position:absolute;
     z-index:0;
 }
  
 .carrusel>div {
+    
     float: left;
     height: 550px;
-   
     width: 1440px;
     text-align:center;
 }
@@ -228,7 +217,12 @@ footer {
     cursor:pointer;
 }
 
+
+
 /**POPUP**/
+
+
+
 .overlay {
     position: fixed;
     top: 0;
@@ -239,16 +233,12 @@ footer {
     transition: opacity 500ms;
     visibility: hidden;
     opacity: 0;
+
 }
 
 .overlay:target {
     visibility: visible;
     opacity: 1;
-}
-#popup{
-
-    align-content: center;
-    justify-content: center;
 }
 
 #popupBody{
@@ -268,7 +258,6 @@ footer {
     font-weight: bold;
     font-size: 36px;
     line-height: 42px;
-    text-align: center;
     color: #FFFFFF;
 
 }
@@ -276,7 +265,7 @@ footer {
 .popupContent{
     font-size: 15px;
     color: white;
-    text-align: center;
+
     font-family: Raleway;
     font-style: normal;
     font-weight: normal;
@@ -284,27 +273,28 @@ footer {
 
 }
 
-.boton{
+.textoBoton{
     font-size: 15px;
     color: #000000;
-    text-align: center;
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
-    font-style: normal;
-    font-weight: normal;
 
 }
 
-#popupBoton{
-    align-content: center;
-    justify-content: center;
+.boton{
+
     padding: 15px;
-    width:150px;
     background: #FFA31A;
 
 }
 
+#popupBoton{
+    background: #FFA31A;
+    padding: 15px;
+    width:150px;
+
+}
 
 #cerrar{
     position: absolute;

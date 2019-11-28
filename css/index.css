@@ -18,6 +18,7 @@ a:link {
 
 header{
     height: 170px;
+    
 }
 
 main{
@@ -54,8 +55,6 @@ footer {
     bottom: 0px;
 }
 
-
-
 #ciudades {
     padding: 70px;
     display: flex;
@@ -78,8 +77,4 @@ footer {
 
 .ciudades:hover{
     color: #FFA31A;
-}
-
-.tabla{
-    border-spacing: 100 5px;
 }

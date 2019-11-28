@@ -3,21 +3,21 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Movie Time</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,600&display=swap" rel="stylesheet">
     rel="stylesheet">
     <link href="css/cartelera.css" rel="stylesheet">
-
     <script src="model/Logica.js"></script>
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <title>Movie Time</title>
 
 </head>
 
 <body>
-
     <header>
         <figure>
-            <img src="data/images/MovieTimeW.png" width="80px" height="65px">
+                <a href="Index.html"><img href="Index.html" src="data/images/MovieTimeW.png" width="80px" height="65px"></a>
         </figure>
 
         <div class=selector>
@@ -32,73 +32,28 @@
 
     <main>
 
-        <div class="awSlider">
-            <div class="carousel slide" data-ride="carousel">
-
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target=".carousel" data-slide-to="0" class="active"></li>
-                    <li data-target=".carousel" data-slide-to="1"></li>
-                    <li data-target=".carousel" data-slide-to="2"></li>
-                    <li data-target=".carousel" data-slide-to="3"></li>
-                </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                        <img src="http://www.adobewordpress.com/wp-content/uploads/2014/02/wallpaper-thumb-941.jpg">
-                        <div class="carousel-caption">Görsel #1</div>
-                    </div>
-                    <div class="item">
-                        <img src="http://www.adobewordpress.com/wp-content/uploads/2014/02/wallpaper-thumb-101.jpg">
-                        <div class="carousel-caption">Görsel #2</div>
-                    </div>
-                    <div class="item">
-                        <img src="http://www.adobewordpress.com/wp-content/uploads/2014/02/wallpaper-thumb-1051.jpg">
-                        <div class="carousel-caption">Görsel #3</div>
-                    </div>
-                    <div class="item">
-                        <img src="http://www.adobewordpress.com/wp-content/uploads/2013/07/wallpaper-thumb-74.jpg">
-                        <div class="carousel-caption">Görsel #4</div>
-                    </div>
-                </div>
-
-                <!-- Controls -->
-                <a class="left carousel-control" href=".carousel" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Geri</span>
-                </a>
-                <a class="right carousel-control" href=".carousel" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">İleri</span>
-                </a>
-            </div>
-        </div>
-
-
-
-        <!---
-
-    <div id="estrenos">
+        <div id="estrenos">
             <div id="carrusel">
                 <a href="#" class="left-arrow"><img src="data/images/left-arrow.png" /></a>
                 <a href="#" class="right-arrow"><img src="data/images/right-arrow.png" /></a>
                 <div class="carrusel">
                     <div class="product" id="product_0">
                         <div style="position: relative;">
-                            <img src="gallery/pelicula1.png" width="1440px" height="525px" />
+                            <img src="data/gallery/pelicula1.png" width="100%" height="525px" />
                             <div class="info_movie_title" style="position: absolute; left: 10px; top: 180px; "
                                 id="doctor">
-                                <h5 id="P1_title"></h5>
+                                <h5>DOCTOR SLEEP</h5>
                             </div>
                             <div class="info_movie" style="position: absolute; left: 700px; top: 380px; ">
-                                <h2 id="P1_sinopsis"></h2>
+                                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veritatis omnis ad
+                                    commodi, fuga sequi corporis deserunt eligendi a, atque aperiam deleniti! Iure
+                                    ratione ipsum offic</h2>
                             </div>
                         </div>
                     </div>
                     <div class="product" id="product_1">
                         <div style="position: relative;">
-                            <img src="data/gallery/pelicula2.png" width="1440px" height="525px" />
+                            <img src="data/gallery/pelicula2.png" width="100%" height="525px" />
                             <div class="info_movie_title" style="position: absolute; left: 10px; top: 180px; ">
                                 <h5>JOKER</h5>
                             </div>
@@ -111,7 +66,7 @@
                     </div>
                     <div class="product" id="product_2">
                         <div style="position: relative;">
-                            <img src="data/gallery/pelicula3.png" width="1440px" height="525px" />
+                            <img src="data/gallery/pelicula3.png" width="100%" height="525px" />
                             <div class="info_movie_title" style="position: absolute; left: 10px; top: 180px; ">
                                 <h5>MALEFICIENT</h5>
                             </div>
@@ -124,7 +79,7 @@
                     </div>
                     <div class="product" id="product_3">
                         <div style="position: relative;">
-                            <img src="data/gallery/pelicula4.png" width="1440px" height="525px" />
+                            <img src="data/gallery/pelicula4.png" width="100%" height="525px" />
                             <div class="info_movie_title" style="position: absolute; left: 10px; top: 180px; ">
                                 <h5>TERMINATOR DARK FATE</h5>
                             </div>
@@ -138,11 +93,18 @@
                 </div>
             </div>
         </div>
+
+
+
+
         <br />
-        -->
+
+
+
+
 
         <div>
-            <label class="cartelera"> CARTELERA |<label id="fecha" class="fecha"></label></label>
+            <label class="titulos"> CARTELERA |<label id="fecha" class="fecha"></label></label>
 
             <div class="peliculas">
                 <div style="width: 250px;" class="prodcut">
@@ -150,17 +112,26 @@
                         <div class="imagens">
                             <a href="#popup" target="_top"><img src="data/gallery/estreno1.png" height="320px"
                                     width="200px"></a></div>
-                        <span>Frozen II</span>
+                        <div class="info-peli">
+                            <br>
+                            Fozen II
+                            <br>
+                            <p>122 MIN | DRAMA<p></p>
+                        </div>
                     </div>
                 </div>
-
 
                 <div style="width: 250px;" class="prodcut">
                     <div class="item">
                         <div class="imagens">
                             <a href="#popup" target="_top"><img src="data/gallery/estreno2.png" height="320px"
                                     width="200px"></a></div>
-                        <span>Mullan</span>
+                        <div class="info-peli">
+                            <br>
+                            Fozen II
+                            <br>
+                            <p>122 MIN | DRAMA<p></p>
+                        </div>
                     </div>
                 </div>
 
@@ -169,7 +140,12 @@
                         <div class="imagens">
                             <a href="#popup" target="_top"><img src="data/gallery/estreno3.png" height="320px"
                                     width="200px"></a></div>
-                        <span>Peter Rabbit</span>
+                        <div class="info-peli">
+                            <br>
+                            Fozen II
+                            <br>
+                            <p>122 MIN | DRAMA<p></p>
+                        </div>
                     </div>
                 </div>
 
@@ -178,7 +154,12 @@
                         <div class="imagens">
                             <a href="#popup" target="_top"><img src="data/gallery/estreno4.png" height="320px"
                                     width="200px"></a></div>
-                        <span>Rings</span>
+                        <div class="info-peli">
+                            <br>
+                            Fozen II
+                            <br>
+                            <p>122 MIN | DRAMA<p></p>
+                        </div>
                     </div>
                 </div>
                 <div style="width: 250px;" class="prodcut">
@@ -186,7 +167,12 @@
                         <div class="imagens">
                             <a href="#popup" target="_top"><img src="data/gallery/estreno2.png" height="320px"
                                     width="200px"></a></div>
-                        <span>Mullan</span>
+                        <div class="info-peli">
+                            <br>
+                            Fozen II
+                            <br>
+                            <p>122 MIN | DRAMA<p></p>
+                        </div>
                     </div>
                 </div>
                 <div style="width: 250px;" class="prodcut">
@@ -194,71 +180,110 @@
                         <div class="imagens">
                             <a href="#popup" target="_top"><img src="data/gallery/estreno2.png" height="320px"
                                     width="200px"></a></div>
-                        <span>Mullan</span>
+                        <div class="info-peli">
+                            <br>
+                            Fozen II
+                            <br>
+                            <p>122 MIN | DRAMA<p></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
         <div>
-            <h3 class="cartelera">PROXIMOS ESTRENOS </h3>
+            <h3 class="titulos">PRÓXIMOS ESTRENOS </h3>
 
-            <div id="peliculas">
-                <div class="peliculas">
-                    <div style="width: 250px;" class="prodcut">
-                        <div class="item">
-                            <div class="imagens">
-                                <a href="#" target="_top"><img src="data/gallery/proximo1.png" height="320px"
-                                        width="200px"></a></div>
-                            <span>Frozen II</span>
+            <div class="peliculas">
+                <div style="width: 250px;" class="prodcut">
+                    <div class="item">
+                        <div class="imagens">
+                            <a href="#" target="_top"><img src="data/gallery/proximo1.png" height="320px"
+                                    width="200px"></a></div>
+                        <div class="info-peli">
+                            <br>
+                            Fozen II
+                            <br>
+                            <p>122 MIN | DRAMA<p></p>
                         </div>
                     </div>
+                </div>
 
-                    <div style="width: 250px;" class="prodcut">
-                        <div class="item">
-                            <div class="imagens">
-                                <a href="#" target="_top"><img src="data/gallery/proximo2.png" height="320px"
-                                        width="200px"></a></div>
-                            <span>Mullan</span>
+                <div style="width: 250px;" class="prodcut">
+                    <div class="item">
+                        <div class="imagens">
+                            <a href="#" target="_top"><img src="data/gallery/proximo2.png" height="320px"
+                                    width="200px"></a></div>
+
+                        <div class="info-peli">
+                            <br>
+                            Fozen II
+                            <br>
+                            <p>122 MIN | DRAMA<p></p>
                         </div>
                     </div>
+                </div>
 
-                    <div style="width: 250px;" class="prodcut">
-                        <div class="item">
-                            <div class="imagens">
-                                <a href="#" target="_top"><img src="data/gallery/proximo3.png" height="320px"
-                                        width="200px"></a></div>
-                            <span>Peter Rabbit</span>
+                <div style="width: 250px;" class="prodcut">
+                    <div class="item">
+                        <div class="imagens">
+                            <a href="#" target="_top"><img src="data/gallery/proximo3.png" height="320px"
+                                    width="200px"></a></div>
+
+                        <div class="info-peli">
+                            <br>
+                            Fozen II
+                            <br>
+                            <p>122 MIN | DRAMA<p></p>
                         </div>
                     </div>
+                </div>
 
-                    <div style="width: 250px;" class="prodcut">
-                        <div class="item">
-                            <div class="imagens">
-                                <a href="#" target="_top"><img src="data/gallery/proximo4.png" height="320px"
-                                        width="200px"></a></div>
-                            <span>Rings</span>
+                <div style="width: 250px;" class="prodcut">
+                    <div class="item">
+                        <div class="imagens">
+                            <a href="#" target="_top"><img src="data/gallery/proximo4.png" height="320px"
+                                    width="200px"></a></div>
+
+                        <div class="info-peli">
+                            <br>
+                            Fozen II
+                            <br>
+                            <p>122 MIN | DRAMA<p></p>
                         </div>
                     </div>
+                </div>
 
-                    <div style="width: 250px;" class="prodcut">
-                        <div class="item">
-                            <div class="imagens">
-                                <a href="#popup" target="_top"><img src="data/gallery/estreno2.png" height="320px"
-                                        width="200px"></a></div>
-                            <span>Mullan</span>
+                <div style="width: 250px;" class="prodcut">
+                    <div class="item">
+                        <div class="imagens">
+                            <a href="#popup" target="_top"><img src="data/gallery/estreno2.png" height="320px"
+                                    width="200px"></a></div>
+
+                        <div class="info-peli">
+                            <br>
+                            Fozen II
+                            <br>
+                            <p>122 MIN | DRAMA<p></p>
                         </div>
                     </div>
-                    <div style="width: 250px;" class="prodcut">
-                        <div class="item">
-                            <div class="imagens">
-                                <a href="#popup" target="_top"><img src="data/gallery/estreno2.png" height="320px"
-                                        width="200px"></a></div>
-                            <span>Mullan</span>
+                </div>
+                <div style="width: 250px;" class="prodcut">
+                    <div class="item">
+                        <div class="imagens">
+                            <a href="#popup" target="_top"><img src="data/gallery/estreno2.png" height="320px"
+                                    width="200px"></a></div>
+
+                        <div class="info-peli">
+                            <br>
+                            Fozen II
+                            <br>
+                            <p>122 MIN | DRAMA<p></p>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
 
         <!--Popup-->
@@ -271,8 +296,8 @@
                     <p>Este es el contenido</p>
                 </div>
 
-                <div id="popupBoton">
-                    <button href=Reserva.html class="pupupBoton"> Reservar > </button>
+                <div class="boton">
+                    <a href=Reserva.html class="textoBoton"> Reservar </a>
                 </div>
 
             </div>
@@ -284,8 +309,6 @@
             <img src="data/images/MovieTimeW.png" width=80 height=65 alt="MovieTime.png">
         </figure>
     </footer>
-
-
 
     <script>
         var current = 0;
@@ -314,18 +337,48 @@
               }
   */
 
-        });
+            //carrusel cartelera
+            var numImages = 6;
+            if (numImages <= 3) {
+                $('.right-arrow').css('display', 'none');
+                $('.left-arrow').css('display', 'none');
+            }
 
-        $('div.awSlider .carousel').carousel({
-            pause: "hover",
-            interval: 4000
-        });
+            $('.left-arrow').on('click', function () {
+                if (current > 0) {
+                    current = current - 1;
+                } else {
+                    current = numImages - 3;
+                }
 
-        var startImage = $('section.awSlider .item.active > img').attr('src');
-        $('section.awSlider').append('<img src="' + startImage + '">');
+                $(".carrusel").animate({ "left": -($('#product_' + current).position().left) }, 800);
 
-        $('section.awSlider .carousel').on('slid.bs.carousel', function () {
-            var bscn = $(this).find('.item.active > img').attr('src');
+                return false;
+            });
+
+            $('.left-arrow').on('hover', function () {
+                $(this).css('opacity', '0.5');
+            }, function () {
+                $(this).css('opacity', '1');
+            });
+
+            $('.right-arrow').on('hover', function () {
+                $(this).css('opacity', '0.5');
+            }, function () {
+                $(this).css('opacity', '1');
+            });
+
+            $('.right-arrow').on('click', function () {
+                if (numImages > current + 3) {
+                    current = current + 1;
+                } else {
+                    current = 0;
+                }
+
+                $(".carrusel").animate({ "left": -($('#product_' + current).position().left) }, 800);
+
+                return false;
+            });
 
         });
 

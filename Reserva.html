@@ -1,59 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600&display=swap" rel="stylesheet"> rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600&display=swap" rel="stylesheet">
+    rel="stylesheet">
     <link href="css/reserva.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <title>MovieTime</title>
 </head>
+
 <body>
     <header>
         <figure>
-            <img src="data/images/MovieTimeW.png" width="50px" height="45px">
+                <a href="Index.html"><img href="Index.html" src="data/images/MovieTimeW.png" width="80px" height="65px"></a>
         </figure>
-        <nav>
-            <ul>
-                <a href="index.html">
-                    <li>HOME</li>
-                </a>
-            </ul>
-        </nav>
 
-    </header>
-    <main>
-        <div id="content">
-            <div id="movie-info">
-                <figure>
-                    <img src="data/gallery/pelicula1.png" width="1440px" height="525px">
-                </figure>
-
-            </div>
-            <div id="teatro">
-
-                <div class="info">HORARIOS</div>
-                <hr>
-                <div id="reservas">
-                    <div id="horarios">
-                        <button href="#" ID="0" class="horario">9:00am</button>
-                        <button href="#" ID="1" class="horario">3:00am</button>
-                        <button href="#" ID="2" class="horario">6:00pm</button>
-                        <button href="#" ID="3" class="horario">12:00pm</button>
-                    </div>
-                </div>
-                <div class="info">ASIENTOS</div>
-                <hr>
-                <div id="canvas"></div>
-
-            </div>
+        <div class=selector>
+            <p class="info">CIUDAD:</p>
+            <select>
+                <option value="Cali">Cali</option>
+                <option value="Medellin">Medellin</option>
+                <option value="Bogotá">Bogotá</option>
+            </select>
         </div>
+    </header>
+
+    <main>
+        <div>
+            <figure  id="imagen-principal" >
+                <img src="data/gallery/pelicula1.png" width="1440px" height="525px">
+            </figure>
+        </div>
+
+        <h3 class="titulos">HORARIOS</h3>
+            <div class="info">HORARIOS</div>
+            <div id="reservas">
+                <div id="horarios">
+                    <button href="#" ID="0" class="horario">9:00am</button>
+                    <button href="#" ID="1" class="horario">3:00am</button>
+                    <button href="#" ID="2" class="horario">6:00pm</button>
+                    <button href="#" ID="3" class="horario">12:00pm</button>
+                </div>
+            </div>
+            <h3 class="titulos">ASIENTOS</h3>
+            <div class="boton">
+                    <a href=Pago.html class="textoBoton"> Pagar </a>
+                </div>>
+            </div>
+
     </main>
 
+    <footer>
+            <figure>
+                <img src="data/images/MovieTimeW.png" width=80 height=65 alt="MovieTime.png">
+            </figure>
+        </footer>
 
 
 
 
-    
+
+
 </body>
+
 </html>
