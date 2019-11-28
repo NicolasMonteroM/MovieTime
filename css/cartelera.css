@@ -120,10 +120,11 @@ footer {
     font-family: 'Raleway', sans-serif;
     padding: 30px;
 }
-  
-  sdiv.awSlider .carousel{
-    width:100%;
-    display:flex;
+
+
+  div.awSlider.carousel{
+      
+    margin-left:0px;
     z-index:2;
     -moz-box-shadow: 0 0 4px #444;
     -webkit-box-shadow: 0 0 4px #444;
@@ -131,11 +132,10 @@ footer {
   }
   
   div.awSlider{
+
     width:100%;
-    margin:auto;
-    padding:30px;
     position:relative;
-    display:table;
+    display:flex;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -145,7 +145,6 @@ footer {
   }
   
   div.awSlider img{
-    width:100%;
     pointer-events: none;
   }
 
