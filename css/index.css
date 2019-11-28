@@ -37,15 +37,6 @@ main{
     font-family: 'Raleway', sans-serif;
 }
 
-.div_bienvenida {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 350px;
-    top: 250px
-}
-
 footer {
     height: 170px;
     display: flex;
