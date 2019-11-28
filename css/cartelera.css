@@ -217,7 +217,6 @@ footer {
 /**POPUP**/
 
 
-
 .overlay {
     position: fixed;
     top: 0;
@@ -260,7 +259,6 @@ footer {
 .popupContent{
     font-size: 15px;
     color: white;
-
     font-family: Raleway;
     font-style: normal;
     font-weight: normal;
