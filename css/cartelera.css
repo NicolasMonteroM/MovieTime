@@ -30,13 +30,15 @@ header{
 }
 
 .peliculas{
-    margin-top: 30px;
-    margin-left: 6%;
-    margin-right: 6%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 6%;
+    margin-right: 4%;
+
 
 }
 
@@ -60,10 +62,9 @@ header{
     font-style: normal;
     font-weight: bold;
     line-height: 35px;
-    
 }
 
-.fecha{
+.sub{
     margin-left: 6px;
     font-size: 25px;
     color:#FFA31A;
@@ -71,7 +72,6 @@ header{
     font-style: normal;
     font-weight: normal;
     line-height: 35px;
-
 }
 
 .content{
@@ -108,12 +108,7 @@ footer {
     font-size: 14px;
   
 }
-.div_ciudades {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
+
 
 .info_movie_title{
     padding: 2%;

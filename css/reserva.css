@@ -26,6 +26,27 @@ header{
     display: flex;
 }
 
+#funciones{
+
+    margin-right: 10%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hora{
+
+    background-color: #FFA31A;
+    font-weight: bold;
+    margin-top: 0px;
+    font-size: 18px;
+    color:black;
+ 
+}
+
 .selector{
     padding: 0;
     display: flex;
@@ -33,7 +54,8 @@ header{
 }
 
 .titulos{
-    margin-left: 40px;
+
+    text-align: left;
     font-size: 25px;
     color:#FFA31A;
     font-family: Raleway;
@@ -58,13 +80,26 @@ header{
 
 }
 
+.info-peli{
+
+    margin-left:40px;
+    color:white;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+
 .boton{
+    margin-top:100px;
     text-align: center;
     position: relative;
     align-content: center;
     justify-content: center;
-    width:500px;
-    padding: 15px;
+    padding: 30px;
     background: #FFA31A;
 
 }
@@ -77,5 +112,37 @@ footer {
     align-items: center;
     margin-right: 0%;
     margin-left: 0%;
+}
+
+
+#reserva{
+
+    display: flex;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+#asientos{
+
+text-align: left;
+
+   
+
+
+}
+
+.sub{
+    margin-left: 6px;
+    font-size: 25px;
+    color:#FFA31A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 35px;
+
 }
 
